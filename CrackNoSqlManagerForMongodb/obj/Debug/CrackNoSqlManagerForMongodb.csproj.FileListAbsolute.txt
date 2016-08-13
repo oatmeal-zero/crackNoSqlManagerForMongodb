@@ -1,0 +1,5 @@
+C:\zero\csharp\CrackNoSqlManagerForMongodb\CrackNoSqlManagerForMongodb\bin\Debug\CrackNoSqlManagerForMongodb.exe.config
+C:\zero\csharp\CrackNoSqlManagerForMongodb\CrackNoSqlManagerForMongodb\bin\Debug\CrackNoSqlManagerForMongodb.exe
+C:\zero\csharp\CrackNoSqlManagerForMongodb\CrackNoSqlManagerForMongodb\bin\Debug\CrackNoSqlManagerForMongodb.pdb
+C:\zero\csharp\CrackNoSqlManagerForMongodb\CrackNoSqlManagerForMongodb\obj\Debug\CrackNoSqlManagerForMongodb.exe
+C:\zero\csharp\CrackNoSqlManagerForMongodb\CrackNoSqlManagerForMongodb\obj\Debug\CrackNoSqlManagerForMongodb.pdb

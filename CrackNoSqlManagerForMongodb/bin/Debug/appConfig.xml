@@ -1,0 +1,369 @@
+<ROOT ClassVersion="5">
+  <MainFormOptions>
+    <XPos>93</XPos>
+    <YPos>17</YPos>
+    <Width>1216</Width>
+    <Height>768</Height>
+    <Maximized>0</Maximized>
+    <Monitors>{X=0,Y=0,Width=1402,Height=802}</Monitors>
+    <DBExplorerWidth2>288</DBExplorerWidth2>
+  </MainFormOptions>
+  <DBExplorerOptions>
+    <hidesystemobjects>0</hidesystemobjects>
+    <hideshards>0</hideshards>
+    <hidereplicasets>0</hidereplicasets>
+    <ExpandCollectionsOnConnect>1</ExpandCollectionsOnConnect>
+  </DBExplorerOptions>
+  <ScriptEditorOptions>
+    <EditorHeight>0</EditorHeight>
+  </ScriptEditorOptions>
+  <ConfirmExit>0</ConfirmExit>
+  <ShowStartPage>0</ShowStartPage>
+  <ShowPasswords>0</ShowPasswords>
+  <LicenseKey>
+  </LicenseKey>
+  <FirstRun>2016-08-13</FirstRun>
+  <BuyReminderShowDate>2016-08-13</BuyReminderShowDate>
+  <FirstStartOfPaidVersion>0</FirstStartOfPaidVersion>
+  <CheckUpdatesInterval>5</CheckUpdatesInterval>
+  <LastUpdateCheckDate>2016-08-13</LastUpdateCheckDate>
+  <servers Collection="true" Count="4">
+    <Item0 ClassVersion="5">
+      <connectiontype>StandaloneHost</connectiontype>
+      <host>192.168.1.45</host>
+      <port>27017</port>
+      <usessh>0</usessh>
+      <authmechanism>None</authmechanism>
+      <authdatabase>admin</authdatabase>
+      <storepassword>1</storepassword>
+      <ConnectionTimeout>30</ConnectionTimeout>
+      <alias>192.168.1.45:27017</alias>
+      <AutoconnectOnStartup>0</AutoconnectOnStartup>
+      <WindowTabColor>-16777216</WindowTabColor>
+      <databases Collection="true" Count="0" />
+    </Item0>
+    <Item1 ClassVersion="5">
+      <connectiontype>StandaloneHost</connectiontype>
+      <host>localhost</host>
+      <port>27017</port>
+      <usessh>1</usessh>
+      <sshhost>203.12.202.119</sshhost>
+      <sshport>2009</sshport>
+      <sshuser>wyd</sshuser>
+      <sshuseprivatekey>0</sshuseprivatekey>
+      <sshpassword>UEr9tcx8fCX7AQ/IOqH3aA==</sshpassword>
+      <authmechanism>None</authmechanism>
+      <authdatabase>admin</authdatabase>
+      <storepassword>1</storepassword>
+      <ConnectionTimeout>30</ConnectionTimeout>
+      <alias>英雄服务器（2区）</alias>
+      <AutoconnectOnStartup>0</AutoconnectOnStartup>
+      <WindowTabColor>-16777216</WindowTabColor>
+      <databases Collection="true" Count="0" />
+    </Item1>
+    <Item2 ClassVersion="5">
+      <connectiontype>StandaloneHost</connectiontype>
+      <host>localhost</host>
+      <port>27017</port>
+      <usessh>1</usessh>
+      <sshhost>203.12.200.58</sshhost>
+      <sshport>2009</sshport>
+      <sshuser>wyd</sshuser>
+      <sshuseprivatekey>0</sshuseprivatekey>
+      <sshpassword>UEr9tcx8fCX7AQ/IOqH3aA==</sshpassword>
+      <authmechanism>None</authmechanism>
+      <authdatabase>admin</authdatabase>
+      <storepassword>1</storepassword>
+      <ConnectionTimeout>30</ConnectionTimeout>
+      <alias>英雄服务器（1区）</alias>
+      <AutoconnectOnStartup>0</AutoconnectOnStartup>
+      <WindowTabColor>-16777216</WindowTabColor>
+      <databases Collection="true" Count="0" />
+    </Item2>
+    <Item3 ClassVersion="5">
+      <connectiontype>StandaloneHost</connectiontype>
+      <host>192.168.3.246</host>
+      <port>27017</port>
+      <usessh>0</usessh>
+      <authmechanism>None</authmechanism>
+      <authdatabase>admin</authdatabase>
+      <storepassword>1</storepassword>
+      <ConnectionTimeout>30</ConnectionTimeout>
+      <alias>192.168.3.246:27017</alias>
+      <AutoconnectOnStartup>0</AutoconnectOnStartup>
+      <WindowTabColor>-16777216</WindowTabColor>
+      <databases Collection="true" Count="0" />
+    </Item3>
+  </servers>
+  <TableEditorOptions ClassVersion="2">
+    <QueryDocsLimit>100</QueryDocsLimit>
+    <OpenOnPage>UseRecent</OpenOnPage>
+    <ShowArrayLenghtInTableView>0</ShowArrayLenghtInTableView>
+    <ShowDocumentIconInTableView>0</ShowDocumentIconInTableView>
+    <ShowBinaryIconInTableView>0</ShowBinaryIconInTableView>
+    <UuidEncoding>Native</UuidEncoding>
+    <TableMaxTextLinesInRow>10</TableMaxTextLinesInRow>
+    <DateTimeFormat>utc</DateTimeFormat>
+    <DontLoadDocumnetsAutomatically>0</DontLoadDocumnetsAutomatically>
+    <FieldsOrderBy>unsorted</FieldsOrderBy>
+    <items Collection="true" Count="5">
+      <Item0 ClassVersion="1">
+        <server>192.168.1.45:27017</server>
+        <database>gameconfig</database>
+        <CollectionOptions Collection="true" Count="3">
+          <Item0 ClassVersion="1">
+            <CollectionName>rechargeCfg</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item0>
+          <Item1 ClassVersion="1">
+            <CollectionName>itemTemplateList</CollectionName>
+            <Limit>1000</Limit>
+            <UseQuery>1</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="2">
+              <Item0 ClassVersion="1">
+                <Query>{}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>1000</Limit>
+              </Item0>
+              <Item1 ClassVersion="1">
+                <Query>{templateId: 100100}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>100</Limit>
+              </Item1>
+            </RecentQueries>
+            <RecentPage>Data</RecentPage>
+          </Item1>
+          <Item2 ClassVersion="1">
+            <CollectionName>vipConfig</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item2>
+        </CollectionOptions>
+      </Item0>
+      <Item1 ClassVersion="1">
+        <server>192.168.1.45:27017</server>
+        <database>player</database>
+        <CollectionOptions Collection="true" Count="4">
+          <Item0 ClassVersion="1">
+            <CollectionName>playerset</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>1</UseQuery>
+            <Query>{_id: 11204}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="3">
+              <Item0 ClassVersion="1">
+                <Query>{_id: 11204}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>100</Limit>
+              </Item0>
+              <Item1 ClassVersion="1">
+                <Query>{_id: 2048}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>100</Limit>
+              </Item1>
+              <Item2 ClassVersion="1">
+                <Query>{_id: 77505}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>100</Limit>
+              </Item2>
+            </RecentQueries>
+            <RecentPage>Data</RecentPage>
+          </Item0>
+          <Item1 ClassVersion="1">
+            <CollectionName>guildset</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item1>
+          <Item2 ClassVersion="1">
+            <CollectionName>mailset</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>1</UseQuery>
+            <Query>{mail_receive_id:77505}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="1">
+              <Item0 ClassVersion="1">
+                <Query>{mail_receive_id:77505}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>100</Limit>
+              </Item0>
+            </RecentQueries>
+            <RecentPage>Data</RecentPage>
+          </Item2>
+          <Item3 ClassVersion="1">
+            <CollectionName>guild_applicants</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item3>
+        </CollectionOptions>
+      </Item1>
+      <Item2 ClassVersion="1">
+        <server>192.168.1.45:27017</server>
+        <database>test</database>
+        <CollectionOptions Collection="true" Count="1">
+          <Item0 ClassVersion="1">
+            <CollectionName>testcoll</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item0>
+        </CollectionOptions>
+      </Item2>
+      <Item3 ClassVersion="1">
+        <server>192.168.1.45:27017</server>
+        <database>config</database>
+        <CollectionOptions Collection="true" Count="1">
+          <Item0 ClassVersion="1">
+            <CollectionName>itemTemplateList</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>1</UseQuery>
+            <Query>{templateId: 100100}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="1">
+              <Item0 ClassVersion="1">
+                <Query>{templateId: 100100}</Query>
+                <Projection>{}</Projection>
+                <Order>{}</Order>
+                <Limit>100</Limit>
+              </Item0>
+            </RecentQueries>
+            <RecentPage>Data</RecentPage>
+          </Item0>
+        </CollectionOptions>
+      </Item3>
+      <Item4 ClassVersion="1">
+        <server>192.168.1.45:27017</server>
+        <database>statistic</database>
+        <CollectionOptions Collection="true" Count="4">
+          <Item0 ClassVersion="1">
+            <CollectionName>account_record</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item0>
+          <Item1 ClassVersion="1">
+            <CollectionName>changeDate</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item1>
+          <Item2 ClassVersion="1">
+            <CollectionName>honor_record</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item2>
+          <Item3 ClassVersion="1">
+            <CollectionName>honor_record_out</CollectionName>
+            <Limit>100</Limit>
+            <UseQuery>0</UseQuery>
+            <Query>{}</Query>
+            <Projection>{}</Projection>
+            <Order>{}</Order>
+            <FilterPanelHeight2>130</FilterPanelHeight2>
+            <ShowQueryPanel>1</ShowQueryPanel>
+            <RecentQueries Collection="true" Count="0" />
+            <RecentPage>Data</RecentPage>
+          </Item3>
+        </CollectionOptions>
+      </Item4>
+    </items>
+  </TableEditorOptions>
+  <InitialFolders>
+    <DefaultFolder>C:\Users\1\AppData\Roaming</DefaultFolder>
+    <ExportDataFolder>C:\Users\1\AppData\Roaming</ExportDataFolder>
+    <SqlServerLastInstance>localhost</SqlServerLastInstance>
+    <MySqlLastHost>localhost</MySqlLastHost>
+  </InitialFolders>
+  <ShellOptions ClassVersion="3">
+    <items Collection="true" Count="0" />
+    <AbortOnError>0</AbortOnError>
+    <DontWriteCommandsToResult>0</DontWriteCommandsToResult>
+    <JavaScriptLibraries Collection="true" Count="0" />
+  </ShellOptions>
+  <MongoDumpRestoreOptions>
+    <DumpFolders Collection="true" Count="1">
+      <Item0>C:\Users\1\AppData\Roaming</Item0>
+    </DumpFolders>
+    <items Collection="true" Count="0" />
+  </MongoDumpRestoreOptions>
+  <RecentHosts Collection="true" Count="4">
+    <Item0>203.12.200.58</Item0>
+    <Item1>203.12.202.119</Item1>
+    <Item2>localhost</Item2>
+    <Item3>192.168.1.45</Item3>
+  </RecentHosts>
+</ROOT>
+<!--I2Aftn54Jn4OafrRCalRvQ==-->
