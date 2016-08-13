@@ -8,10 +8,14 @@ using Microsoft.Win32;
 namespace CrackNoSqlManagerForMongodb
 {
     /// <summary>
-    /// 删除注册表键值
+    /// 注册表操作类
     /// </summary>
-    class DeleteRegisterKey
+    class RegistryOp
     {
+        /// <summary>
+        /// 删除注册表键值
+        /// [-HKEY_CURRENT_USER\Software\NoSQL Manager Group]
+        /// </summary>
         public static void DeleteKey()
         {
             try

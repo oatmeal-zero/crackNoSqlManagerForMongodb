@@ -18,13 +18,13 @@ namespace CrackNoSqlManagerForMongodb
                 string xmlfile = path + "\\NoSQL Manager for MongoDB\\appConfig.xml";
                 string copyfile = System.Environment.CurrentDirectory + "\\appConfig.xml";
 
-                ChangeTime.CopyConfigFile(xmlfile, copyfile);
-                ChangeTime.ChangeConfigTime(copyfile);
-                RmDir.Remove(path);
-                DeleteRegisterKey.DeleteKey();
+                FileOp.CopyConfigFile(xmlfile, copyfile);
+                AppConfig.UpdateTime(copyfile);
+                FileOp.Remove(path);
+                RegistryOp.DeleteKey();
                 GenConfigFile.ExecuteProgram(program);
-                ChangeTime.CopyConfigFile(copyfile, xmlfile);
-                //ChangeTime.DeleteCopyFile(copyfile);
+                FileOp.CopyConfigFile(copyfile, xmlfile);
+                //FileOp.DeleteCopyFile(copyfile);
                 Console.WriteLine("破解成功，请按回车键退出！");
             }
             catch (Exception e)

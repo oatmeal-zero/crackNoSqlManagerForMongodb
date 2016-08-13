@@ -30,13 +30,12 @@ namespace CrackNoSqlManagerForMongodb
 
         public Config()
         {
+            GuessPath();
             XmlDocument doc = new XmlDocument();
             XmlNode node;
             try
             {
                 doc.Load("config.xml");
-                node = doc.SelectSingleNode("/root/path");
-                path = node.InnerText;
                 node = doc.SelectSingleNode("/root/program");
                 program = node.InnerText;
             }
@@ -47,7 +46,25 @@ namespace CrackNoSqlManagerForMongodb
                 throw;
             }
         }
+        /// <summary>
+        /// 猜测appConfig.xml所在目录
+        /// 1.用户应用数据目录
+        /// 2.公共用户应用数据目录
+        /// </summary>
+        private void GuessPath()
+        {
+            string groupPath = "\\NoSQL Manager Group";
+            string ApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string CommonApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
 
-
+            if (FileOp.PathExists(ApplicationData + groupPath))
+            {
+                path = ApplicationData + groupPath;
+            }
+            else
+            {
+                path = CommonApplicationData + groupPath;
+            }
+        }
     }
 }

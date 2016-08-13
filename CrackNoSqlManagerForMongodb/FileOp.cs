@@ -1,37 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
-using System.IO;
 
 namespace CrackNoSqlManagerForMongodb
 {
     /// <summary>
-    /// 更改appConfig配置文件到最新的日期
+    /// 文件操作类
     /// </summary>
-    class ChangeTime
+    class FileOp
     {
-        public static void ChangeConfigTime(string xmlfile)
+        /// <summary>
+        /// 删除指定目录
+        /// NoSQL Manager Group
+        /// </summary>
+        /// <param name="path">待删除的目录</param>
+        public static void Remove(string path)
         {
-            XmlDocument doc = new XmlDocument();
-            string now = DateTime.Now.Date.ToString("yyyy-MM-dd");
-            XmlNode node;
             try
             {
-                doc.Load(xmlfile);
-                node = doc.SelectSingleNode("/ROOT/FirstRun");
-                node.InnerText = now;
-                node = doc.SelectSingleNode("/ROOT/BuyReminderShowDate");
-                node.InnerText = now;
-                node = doc.SelectSingleNode("/ROOT/LastUpdateCheckDate");                
-                node.InnerText = now;
-                doc.Save(xmlfile);
-                //Console.WriteLine("appConfig.xml的时间已经更新到最新！");
+                DirectoryInfo dir = new DirectoryInfo(path);
+                dir.Delete(true);
+                Console.WriteLine("删除“{0}”目录成功！", path);
             }
             catch (Exception e)
             {
+                Console.WriteLine("无法删除“{0}”目录，原因：", path);
                 Console.WriteLine(e.Message);
             }
         }
@@ -61,6 +57,16 @@ namespace CrackNoSqlManagerForMongodb
                 Console.WriteLine("无法删除临时配置文件，原因：");
                 Console.WriteLine(e.Message);
             }
+        }
+
+        /// <summary>
+        /// 判断指定的目录是否存在
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static bool PathExists(string path)
+        {
+            return Directory.Exists(path);
         }
     }
 }
